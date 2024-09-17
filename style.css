@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url(./images/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+/* Header wala area */
+.upper-section{
+    margin-top: 15px;
+}
+.upper-section > h1, .navigation-bar{
+    display: inline;
+}
+
+.upper-section > h1{
+    margin-left: 30px;
+}
+
+.navigation-bar{
+    margin-left: 450px;
+}
+
+.navigation-bar a{
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 17px;
+}
+
+/* Main wala area */
+
+.middle-section{
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.middle-section > p{
+    font-size: 50px;
+}
+
+.middle-section > #portfolio-btn{
+    padding: 10px 40px;
+    border-color: crimson;
+}
