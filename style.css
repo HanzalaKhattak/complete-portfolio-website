@@ -63,3 +63,23 @@
     font-size: 20px;
     color: white;
 }
+
+/* Main Portion */
+.middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.services{
+    width: 500px;
+}
+
+#services-heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+#services-related{
+    text-align: center;
+}
