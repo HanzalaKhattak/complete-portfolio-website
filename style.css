@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: none;
@@ -7,55 +7,62 @@
 }
 
 /* Header wala area */
-.upper-section{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/background-img.jpg);
-    background-repeat: no-repeat;                                    
+.upper-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/background-img.jpg);
+    background-repeat: no-repeat;
     color: white;
     /* background-color: rgb(37, 37, 37); */
     background-size: cover;
+    background-attachment: fixed;
     /* margin-top: 15px; */
     width: 100%;
-    height: 650px;
+    height: 100vh;
 }
 
-.upper-section > .nav-bar{
-    background-color: transparent;
+.upper-section > .nav-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
 }
 
-.upper-section > .nav-bar > h1, .navigation-bar{
-    display: inline;
+.nav-bar .logo {
+    display: flex;
+}
+.upper-section > .nav-bar > h1,
+.navigation-bar {
 }
 
-.upper-section > h1{
-    margin-left: 30px;
-}
-
-.navigation-bar{
+.navigation-bar {
     margin-left: 450px;
 }
 
-.navigation-bar a{
+.navigation-bar a {
     text-decoration: none;
     margin-left: 35px;
     font-size: 17px;
     color: white;
 }
 
-.hello{
+.hello {
     width: 350px;
     margin-left: 120px;
-    margin-top: 60px;
+    padding-top: 200px;
 }
 
-.hello > p{
+.hello > p {
     font-size: 60px;
 }
 
-#name{
+#name {
     color: crimson;
 }
 
-.hello > #portfolio-btn{
+.hello > #portfolio-btn {
     background-color: transparent;
     padding: 10px 40px;
     border-color: crimson;
@@ -65,26 +72,26 @@
 }
 
 /* Main Portion */
-.middle-section{
+.middle-section {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
 }
-.services{
+.services {
     width: 500px;
 }
 
-#services-heading{
+#services-heading {
     font-size: 40px;
     text-align: center;
 }
 
-#services-related{
+#services-related {
     text-align: center;
 }
 
-.boxes{
+.boxes {
     /* width: 100%; */
     /* background-color: rgba(0,0,0,0.7); */
     width: 100%;
@@ -92,98 +99,98 @@
     display: flex;
 }
 
-.single-box{
-    background-color: rgba(0,0,0,0.7);
+.single-box {
+    background-color: rgba(0, 0, 0, 0.7);
     /* width: 200px; */
     /* display: flex;
     justify-content: center;
-    align-items: center; */
+      align-items: center; */
     width: 265px;
     height: 300px;
     margin: auto;
     border-radius: 10px;
 }
 
-.single-box > img{
+.single-box > img {
     width: 40px;
     height: 40px;
     margin-top: 20px;
     margin-left: 20px;
 }
 
-.single-box > h2{
+.single-box > h2 {
     margin-left: 20px;
     margin-top: 20px;
     color: white;
 }
 
-.single-box > p{
+.single-box > p {
     margin-left: 20px;
     color: white;
     width: 230px;
     margin-top: 20px;
 }
 
-#recent-projects-heading{
+#recent-projects-heading {
     font-size: 40px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 80px
 }
 
-.recent-projects1{
+.recent-projects1 {
     display: flex;
     justify-content: center;
     padding-top: 30px;
 }
 
-.project{
-    background-color: rgba(0,0,0,0.7);
+.project {
+    background-color: rgba(0, 0, 0, 0.7);
     width: 600px;
     height: 340px;
     /* margin-top: 30px; */
 }
 
-.project > #p1, #p2, #p3, #p4, #p5{
+.project > #p1,
+#p2,#p3,#p4,#p5 {
     padding-top: 70px;
     padding-left: 20px;
     color: white;
     font-size: 35px;
 }
 
-.project > #p1-dsp, #p2-dsp, #p3-dsp, #p4-dsp, #p5-dsp{
+.project > #p1-dsp, #p2-dsp, #p3-dsp, #p4-dsp, #p5-dsp {
     padding-left: 20px;
     font-size: 19px;
     color: white;
 }
 
-.project > p{
+.project > p {
     padding-left: 20px;
     color: white;
 }
 
-.project-image > img{
+.project-image > img {
     width: 600px;
     height: 340px;
     display: inline;
 }
 
-.recent-projects2{
+.recent-projects2 {
     display: flex;
     justify-content: center;
 }
 
-.recent-projects3{
+.recent-projects3 {
     display: flex;
     justify-content: center;
 }
 
-.recent-projects4{
+.recent-projects4 {
     display: flex;
     justify-content: center;
 }
 
-.recent-projects5{
+.recent-projects5 {
     display: flex;
     justify-content: center;
 }
-
